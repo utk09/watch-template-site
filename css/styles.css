@@ -1,13 +1,92 @@
 :root {
+  /* color shades */
   --shade-1: #020f59;
   --shade-2: #023373;
   --shade-3: #022859;
   --shade-4: #f2b28d;
   --shade-5: #f2f2f2;
+
+  /* fonts */
+  --font-1: "Ubuntu", sans-serif;
+  --font-2: "Noto Sans JP", sans-serif;
+  --font-3: "Fira Sans", sans-serif;
+  --font-4: "Comfortaa", cursive;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+*/
+
+body {
+  font-family: var(--font-1);
+  -webkit-font-smoothing: antialiased;
+  background: var(--shade-3);
+  color: var(--shade-5);
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 20px;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+#title-header .title-h1 {
+  color: var(--shade-5);
+}
+
+header a {
+  text-decoration: no;
+  text-transform: capitalize;
+}
+
+header ul {
+  color: var(--shade-4);
+  font-size: 24px;
+  float: left;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header #main-head {
+  float: left;
+}
+
+header #main-head h1 {
+  margin: 0;
 }
