@@ -13,18 +13,6 @@
   --font-4: "Comfortaa", cursive;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -33,22 +21,9 @@ ul {
 
 body {
   font-family: var(--font-1);
+  font-size: 16px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background: var(--shade-3);
-  color: var(--shade-5);
-}
-
-h1 {
-  font-size: 32px;
-  margin: 20px;
-  padding: 15px;
-}
-
-a {
-  text-decoration: none;
-}
-
-header {
-  padding-top: 30px;
-  min-height: 70px;
+  background: var(--shade-5);
+  color: var(--shade-1);
 }
