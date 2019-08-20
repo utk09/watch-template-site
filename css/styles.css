@@ -59,3 +59,8 @@ header a {
   font-size: 36px;
   font-family: var(--font-1);
 }
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
