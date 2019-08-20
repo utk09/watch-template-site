@@ -22,25 +22,20 @@
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
-/*
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-*/
 
 body {
   font-family: var(--font-1);
   -webkit-font-smoothing: antialiased;
   background: var(--shade-3);
   color: var(--shade-5);
-}
-
-ul {
-  list-style: none;
 }
 
 h1 {
@@ -56,37 +51,4 @@ a {
 header {
   padding-top: 30px;
   min-height: 70px;
-}
-
-#title-header .title-h1 {
-  color: var(--shade-5);
-}
-
-header a {
-  text-decoration: no;
-  text-transform: capitalize;
-}
-
-header ul {
-  color: var(--shade-4);
-  font-size: 24px;
-  float: left;
-}
-
-header li {
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header nav {
-  float: right;
-  margin-top: 10px;
-}
-
-header #main-head {
-  float: left;
-}
-
-header #main-head h1 {
-  margin: 0;
 }
