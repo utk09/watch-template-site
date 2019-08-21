@@ -104,3 +104,17 @@ header nav {
   font-family: var(--font-2);
 }
 
+.upper-section h2{
+  text-align: center;
+  font-size: 35px;
+  margin: 40px auto 40px auto;
+  text-decoration: underline;
+}
+
+.upper-section-img{
+  width: 95%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
