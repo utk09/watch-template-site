@@ -83,3 +83,14 @@ header nav {
   float: right;
   margin-top: 24px;
 }
+
+.underline-on-hover:hover {
+  /* text-decoration: underline;
+  text-decoration-color: var(--shade-4);
+  text-decoration-line: 10px; */
+
+  /* display: inline; */
+  /* margin-bottom: 30px; */
+  border-bottom: 3px solid #f2b28d;
+  line-height: 20px;
+}
