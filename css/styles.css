@@ -1,1 +1,24 @@
 /* Timeless Watches -  A Template Website by http://github.com/utk09 */
+
+/*
+Colours Used -->
+primary: #83F3ED
+black: #011627
+white: #fafaff
+ */
+
+body {
+  font-family: "Courier Prime", monospace;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
