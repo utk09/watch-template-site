@@ -7,6 +7,8 @@ black: #011627
 white: #fafaff
  */
 
+/* Global */
+
 body {
   font-family: "Courier Prime", monospace;
 }
@@ -21,4 +23,39 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+}
+
+/* Buttons */
+
+.btn-outline-secondary {
+  background-color: transparent !important;
+  border-color: #011627 !important;
+  color: #011627 !important;
+  border-radius: 0;
+}
+
+.btn-outline-secondary:before {
+  content: "";
+  position: absolute;
+  background-color: #83f3ed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-outline-secondary:hover:before {
+  width: 100%;
+}
+
+.btn-secondary {
+  background: #011627 !important;
+  border-radius: 0;
+  border-color: #011627 !important;
+}
+
+.btn-secondary:hover {
+  color: #83f3ed !important;
 }
