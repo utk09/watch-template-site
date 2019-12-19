@@ -159,7 +159,22 @@ h6 {
 
 /********************* Responsive *********************/
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
+  .navbar .nav-item {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+  }
+  .short-description .container {
+    width: 100% !important;
+  }
+} */
+
+@media (max-width: 815px) {
+  body {
+    width: 100%;
+  }
   .navbar .nav-item {
     display: block;
     width: 100%;
