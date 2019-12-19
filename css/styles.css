@@ -34,8 +34,8 @@ h6 {
   border-radius: 0;
 }
 
-.btn-outline-secondary:before {
-  content: "";
+.btn-outline-secondary {
+  /* content: "";
   position: absolute;
   background-color: #83f3ed;
   top: 0;
@@ -43,11 +43,16 @@ h6 {
   height: 100%;
   width: 0%;
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.5s; */
+  background: linear-gradient(to right, #83f3ed 50%, white 50%);
+  background-size: 200% 100%;
+  z-index: -1;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
 }
 
-.btn-outline-secondary:hover:before {
-  width: 100%;
+.btn-outline-secondary:hover {
+  background-position: left bottom;
 }
 
 .btn-secondary {
@@ -89,7 +94,7 @@ h6 {
 
 .nav-link:hover,
 .navbar-brand:hover {
-  color:#51aca7;
+  color: #51aca7;
 }
 
 .navbar-brand {
