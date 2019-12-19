@@ -140,3 +140,14 @@ h6 {
   background: #777;
   opacity: 0.2;
 }
+
+/********************* Footer *********************/
+
+.footer {
+  background: #011627;
+  color: #fafaff;
+}
+
+.footer a {
+  color: #ffffff;
+}
