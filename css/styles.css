@@ -95,3 +95,16 @@ h6 {
 .navbar-brand {
   font-size: 1.8rem;
 }
+
+/********************* short description *********************/
+
+.short-description {
+  background: #011627;
+  color: #fafaff;
+}
+
+.heading-line {
+  height: 3px;
+  width: 20%;
+  background: #83f3ed;
+}
