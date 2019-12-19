@@ -151,3 +151,17 @@ h6 {
 .footer a {
   color: #ffffff;
 }
+
+/********************* Responsive *********************/
+
+@media (max-width: 900px) {
+  .navbar .nav-item {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+  }
+  .short-description .container {
+    width: 100% !important;
+  }
+}
