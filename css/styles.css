@@ -25,7 +25,7 @@ h6 {
   font-weight: 700;
 }
 
-/* Buttons */
+/********************* Buttons *********************/
 
 .btn-outline-secondary {
   background-color: transparent !important;
@@ -70,4 +70,28 @@ h6 {
 .btn-primary:hover {
   background: #011627 !important;
   color: #83f3ed !important;
+}
+
+/********************* Navbar *********************/
+
+.navbar {
+  background: #fff;
+  /* border-bottom: 1px solid #011627; */
+  -webkit-box-shadow: 0 6px 6px -6px #777;
+  -moz-box-shadow: 0 6px 6px -6px #777;
+  box-shadow: 0 6px 6px -6px #777;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #011627;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #777;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
 }
