@@ -59,3 +59,15 @@ h6 {
 .btn-secondary:hover {
   color: #83f3ed !important;
 }
+
+.btn-primary {
+  background: #83f3ed !important;
+  border-radius: 0;
+  border-color: #83f3ed;
+  color: #011627 !important;
+}
+
+.btn-primary:hover {
+  background: #011627 !important;
+  color: #83f3ed !important;
+}
