@@ -159,29 +159,62 @@ h6 {
 
 /********************* Responsive *********************/
 
-/* @media (max-width: 900px) {
-  .navbar .nav-item {
+@media (max-width: 900px) {
+  .nav .nav-item {
     display: block;
-    width: 100%;
-    padding: 10px 0px;
-    text-align: center;
-  }
-  .short-description .container {
     width: 100% !important;
+    text-align: center;
+    padding: 10px 0px;
   }
-} */
 
-@media (max-width: 815px) {
-  body {
-    width: 100%;
-  }
-  .navbar .nav-item {
-    display: block;
-    width: 100%;
-    padding: 10px 0px;
-    text-align: center;
-  }
-  .short-description .container {
+  .short-description .text-center {
     width: 100% !important;
+  }
+
+  .short-description .p-description-text {
+    padding: 20px !important;
+  }
+
+  .footer .p-footer-text {
+    padding: 10px !important;
+    text-align: center !important;
+  }
+
+  .portfolio .img-fluid {
+    padding: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar-expand-lg {
+    width: 100% !important;
+  }
+
+  .nav .nav-item {
+    display: block;
+    width: 100% !important;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  .short-description{
+    width: 100% !important;
+  }
+
+  .short-description .text-center {
+    width: 100% !important;
+  }
+
+  .short-description .p-description-text {
+    padding: 20px !important;
+  }
+
+  .footer .p-footer-text {
+    padding: 10px !important;
+    text-align: center !important;
+  }
+
+  .portfolio .img-fluid {
+    padding: 0 0 20px 0;
   }
 }
