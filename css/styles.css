@@ -102,7 +102,7 @@ h6 {
 }
 
 .nav .active {
-  border-bottom: 3px double #51aca7;
+  border-bottom: 2px solid #51aca7;
   text-align: center;
   width: fit-content;
 }
